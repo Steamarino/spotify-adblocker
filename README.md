@@ -6,7 +6,7 @@ Spotify adblock windows is a spotify adblocker inspired by [spotify-adblock-linu
 ## Getting started
 
 ### Prerequisites
- - NodeJS and NPM (or yarn)
+ - NodeJS and NPM
 
 ### Installing
  1. Clone the repository with `git clone https://github.com/fuwwy/spotify-adblock-windows.git` or download the latest version from the [releases page](https://github.com/fuwwy/spotify-adblock-windows/releases)

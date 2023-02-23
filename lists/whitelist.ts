@@ -1,4 +1,4 @@
-module.exports = [
+const whitelist: string[] = [
     "localhost", // local proxies
     "audio-sp-.*.pscdn.co", // audio
     "audio-fa.scdn.co", // audio
@@ -76,3 +76,5 @@ module.exports = [
     "dovetail.prxu.org", // podcasts
     "dovetail-cdn.prxu.org", // podcasts
 ];
+
+export default whitelist;

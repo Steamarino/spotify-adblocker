@@ -15,3 +15,5 @@ Spotify adblock windows is a spotify adblocker inspired by [spotify-adblock-linu
 4. Execute `start.bat` (or run `npm start`) to initiate the application.
 5. Install the CA certificate under `certs/certs/ca.crt` on "Trusted Root Certification Authorities" (more information in the [CA docs](./docs/CA.md))
 6. Enjoy listening without distractions.
+
+### Auto start

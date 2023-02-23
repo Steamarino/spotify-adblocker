@@ -6,12 +6,12 @@ Spotify adblock windows is a spotify adblocker inspired by [spotify-adblock-linu
 ## Getting started
 
 ### Prerequisites
- - NodeJS and NPM
+- NodeJS and NPM
 
 ### Installing
- 1. Clone the repository with `git clone https://github.com/fuwwy/spotify-adblock-windows.git` or download the latest version from the [releases page](https://github.com/fuwwy/spotify-adblock-windows/releases)
- 2. Run `npm install` to download all the required dependencies
- 3. Open Spotify `Settings` page, scroll all the way down and click `Show Advanced Settings`, set the proxy type to HTTP, the host to `127.0.0.1` and the port to `8081`, finally, click `Update Proxy`
- 4. Execute `start.bat` (or run `npm start`) to initiate the application
- 5. Install the CA certificate under `certs/certs/ca.crt` on "Trusted Root Certification Authorities" (more information in the [CA docs](./docs/CA.md))
- 6. Enjoy listening without distractions.
+1. Clone the repository with `git clone https://github.com/fuwwy/spotify-adblock-windows.git` or download the latest version from the [releases page](https://github.com/fuwwy/spotify-adblock-windows/releases)
+2. Run `npm install` to download all the required dependencies
+3. Open Spotify `Settings` page, scroll all the way down and click `Show Advanced Settings`, set the proxy type to HTTP, the host to `127.0.0.1` and the port to `8081`, finally, click `Update Proxy`
+4. Execute `start.bat` (or run `npm start`) to initiate the application.
+5. Install the CA certificate under `certs/certs/ca.crt` on "Trusted Root Certification Authorities" (more information in the [CA docs](./docs/CA.md))
+6. Enjoy listening without distractions.

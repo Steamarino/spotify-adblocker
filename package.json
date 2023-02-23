@@ -1,6 +1,6 @@
 {
-  "name": "spotify-adblock-windows",
-  "version": "1.0.0",
+  "name": "spotify-adblocker",
+  "version": "2.0.0",
   "description": "Blocks spotify ads using a MITM proxy",
   "main": "index.js",
   "scripts": {

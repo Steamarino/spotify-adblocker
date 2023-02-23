@@ -42,15 +42,19 @@ module.exports = [
     "ap.spotify.com", // audio (access point)
     ".*.ap.spotify.com", // access points
     "ap-.*.spotify.com", // access points
+    "ap-*.spotify.com", // access points
     "api.spotify.com", // client APIs
     "api-partner.spotify.com", // album/artist pages
     "xpui.app.spotify.com", // user interface
     "apresolve.spotify.com", // access point resolving
     "clienttoken.spotify.com", // login
     ".*dealer.spotify.com", // websocket connections
+    "gew*-dealer.spotify.com", // websocket connections
     "image-upload.*.spotify.com", // image uploading
     "login.*.spotify.com", // login
+    "login*.spotify.com", // login
     ".*-spclient.spotify.com", // client APIs
+    "gew*-spclient.spotify.com", // client APIs
     "spclient.wg.spotify.com", // client APIs, ads/tracking (blocked in blacklist)
     "audio-fa.spotifycdn.com", // audio
     "seed-mix-image.spotifycdn.com", // mix images

@@ -54,8 +54,8 @@ module.exports = [
     "login.*.spotify.com", // login
     "login*.spotify.com", // login
     ".*-spclient.spotify.com", // client APIs
-    "gew*-spclient.spotify.com", // client APIs
     "spclient.wg.spotify.com", // client APIs, ads/tracking (blocked in blacklist)
+    "gew*-spclient.spotify.com", // client APIs
     "audio-fa.spotifycdn.com", // audio
     "seed-mix-image.spotifycdn.com", // mix images
     "api.spreaker.com", // podcasts

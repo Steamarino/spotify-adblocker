@@ -110,6 +110,8 @@ const ServerExtensions: object[] = [{
 }];
 
 export class CA {
+  private static instance: CA;
+
   private baseCAFolder: string;
   private certsFolder: string;
   private keysFolder: string;
@@ -119,7 +121,14 @@ export class CA {
   };
   private CAcert: any;
 
-  private create(caFolder: string, callback: any): any {
+  public static getInstance(): CA {
+    if (!this.instance) {
+      this.instance = new CA();
+    }
+    return this.instance;
+  }
+
+  public create(caFolder: string, callback: any): any {
     this.baseCAFolder = caFolder;
     this.certsFolder = pathJoin(this.baseCAFolder, 'certs');
     this.keysFolder = pathJoin(this.baseCAFolder, 'keys');

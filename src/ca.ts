@@ -212,7 +212,7 @@ export class CA {
     });
   };
 
-  private generateServerCertificateKeys(hosts: string|string[], cb: any): void {
+  public generateServerCertificateKeys(hosts: string|string[], cb: any): void {
     if (typeof(hosts) === "string") {
       hosts = [hosts];
     }

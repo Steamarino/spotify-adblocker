@@ -268,5 +268,3 @@ export class CA {
     return this.certsFolder + '/ca.crt';
   };
 }
-
-export default CA;
